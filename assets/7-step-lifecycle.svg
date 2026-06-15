@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#636e72"/>
+      <stop offset="100%" style="stop-color:#2d3436"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdcb6e"/>
+      <stop offset="100%" style="stop-color:#e17055"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00b894"/>
+      <stop offset="100%" style="stop-color:#00cec9"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff7675"/>
+      <stop offset="100%" style="stop-color:#d63031"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00cec9"/>
+      <stop offset="100%" style="stop-color:#0984e3"/>
+    </linearGradient>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e17055"/>
+      <stop offset="100%" style="stop-color:#d63031"/>
+    </linearGradient>
+    <linearGradient id="g7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3436"/>
+      <stop offset="100%" style="stop-color:#636e72"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="360" fill="url(#bg)" rx="12"/>
+
+  <text x="40" y="40" fill="#00b894" font-size="13" font-weight="600" letter-spacing="3">SYKES PENNYSTOCK RADAR</text>
+  <text x="40" y="65" fill="#ffffff" font-size="20" font-weight="700">7 步仙股炒作周期</text>
+  <text x="40" y="82" fill="#636e72" font-size="11">7-Step Pennystocking Framework</text>
+
+  <!-- Flow Arrow Background -->
+  <path d="M 60 130 L 80 110 L 860 110 L 860 130 Z" fill="#2d3436" opacity="0.3"/>
+
+  <!-- Step 1: Pre-Pump -->
+  <rect x="45" y="110" width="90" height="90" rx="12" fill="url(#g1)" filter="url(#shadow)"/>
+  <text x="90" y="145" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">01</text>
+  <text x="90" y="165" fill="#dfe6e9" font-size="9" text-anchor="middle" letter-spacing="1">PRE-PUMP</text>
+  <text x="90" y="180" fill="#636e72" font-size="8" text-anchor="middle">预泵期</text>
+  <text x="137" y="156" fill="#636e72" font-size="14">→</text>
+
+  <!-- Step 2: Ramp -->
+  <rect x="148" y="110" width="90" height="90" rx="12" fill="url(#g2)" filter="url(#shadow)"/>
+  <text x="193" y="145" fill="#1a1a2e" font-size="22" font-weight="700" text-anchor="middle">02</text>
+  <text x="193" y="165" fill="#1a1a2e" font-size="9" text-anchor="middle" letter-spacing="1" font-weight="600">RAMP</text>
+  <text x="193" y="180" fill="#1a1a2e" font-size="8" text-anchor="middle" font-weight="600">加速期</text>
+  <text x="240" y="156" fill="#636e72" font-size="14">→</text>
+
+  <!-- Step 3: Supernova (Highlighted) -->
+  <rect x="252" y="100" width="105" height="110" rx="14" fill="url(#g3)" filter="url(#shadow)"/>
+  <rect x="252" y="100" width="105" height="110" rx="14" fill="none" stroke="#00b894" stroke-width="2" opacity="0.5"/>
+  <text x="305" y="140" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">03</text>
+  <text x="305" y="162" fill="#ffffff" font-size="9" text-anchor="middle" letter-spacing="1">SUPERNOVA</text>
+  <text x="305" y="178" fill="#dfe6e9" font-size="8" text-anchor="middle">超新星爆发 ⭐</text>
+  <text x="305" y="196" fill="#ffffff" font-size="7" text-anchor="middle">散户最好赚钱的阶段</text>
+  <text x="359" y="156" fill="#636e72" font-size="14">→</text>
+
+  <!-- Step 4: Cliff Dive -->
+  <rect x="371" y="110" width="90" height="90" rx="12" fill="url(#g4)" filter="url(#shadow)"/>
+  <text x="416" y="145" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">04</text>
+  <text x="416" y="165" fill="#dfe6e9" font-size="9" text-anchor="middle" letter-spacing="1">CLIFF DIVE</text>
+  <text x="416" y="180" fill="#dfe6e9" font-size="8" text-anchor="middle">悬崖跳水</text>
+  <text x="463" y="156" fill="#636e72" font-size="14">→</text>
+
+  <!-- Step 5: Dip Buy (Highlighted) -->
+  <rect x="475" y="100" width="105" height="110" rx="14" fill="url(#g5)" filter="url(#shadow)"/>
+  <rect x="475" y="100" width="105" height="110" rx="14" fill="none" stroke="#00cec9" stroke-width="2" opacity="0.5"/>
+  <text x="528" y="140" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle">05</text>
+  <text x="528" y="162" fill="#ffffff" font-size="9" text-anchor="middle" letter-spacing="1">DIP BUY</text>
+  <text x="528" y="178" fill="#dfe6e9" font-size="8" text-anchor="middle">恐慌接多 🔥</text>
+  <text x="528" y="196" fill="#ffffff" font-size="7" text-anchor="middle">Sykes 最得意的手法</text>
+  <text x="582" y="156" fill="#636e72" font-size="14">→</text>
+
+  <!-- Step 6: Dead Pump -->
+  <rect x="594" y="110" width="90" height="90" rx="12" fill="url(#g6)" filter="url(#shadow)"/>
+  <text x="639" y="145" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">06</text>
+  <text x="639" y="165" fill="#dfe6e9" font-size="9" text-anchor="middle" letter-spacing="1">DEAD PUMP</text>
+  <text x="639" y="180" fill="#dfe6e9" font-size="8" text-anchor="middle">死泵反弹</text>
+  <text x="686" y="156" fill="#636e72" font-size="14">→</text>
+
+  <!-- Step 7: Goodnight -->
+  <rect x="698" y="110" width="90" height="90" rx="12" fill="url(#g7)" filter="url(#shadow)"/>
+  <text x="743" y="145" fill="#636e72" font-size="22" font-weight="700" text-anchor="middle">07</text>
+  <text x="743" y="165" fill="#636e72" font-size="9" text-anchor="middle" letter-spacing="1">GOODNIGHT</text>
+  <text x="743" y="180" fill="#636e72" font-size="8" text-anchor="middle">长吻晚安</text>
+
+  <!-- Three rules section -->
+  <rect x="45" y="235" width="810" height="105" rx="10" fill="#16213e" filter="url(#shadow)"/>
+  <text x="60" y="260" fill="#00b894" font-size="12" font-weight="600">三条铁律</text>
+
+  <!-- Rule 1 -->
+  <circle cx="80" cy="285" r="12" fill="#ff7675" opacity="0.2"/>
+  <text x="80" y="289" fill="#ff7675" font-size="12" font-weight="700" text-anchor="middle">1</text>
+  <text x="100" y="289" fill="#ffffff" font-size="12">快速止损 — 单笔亏损不超过账户 0.3%-0.7%</text>
+
+  <!-- Rule 2 -->
+  <circle cx="80" cy="310" r="12" fill="#fdcb6e" opacity="0.2"/>
+  <text x="80" y="314" fill="#fdcb6e" font-size="12" font-weight="700" text-anchor="middle">2</text>
+  <text x="100" y="314" fill="#ffffff" font-size="12">逢强卖出 — 分批止盈，绝不 HODL</text>
+
+  <!-- Rule 3 -->
+  <circle cx="420" cy="289" r="12" fill="#00b894" opacity="0.2"/>
+  <text x="420" y="293" fill="#00b894" font-size="12" font-weight="700" text-anchor="middle">3</text>
+  <text x="440" y="293" fill="#ffffff" font-size="12">绝不加仓亏损 — 只加仓已盈利仓位</text>
+</svg>

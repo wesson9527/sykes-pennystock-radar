@@ -2,7 +2,6 @@
 
 ## Home Index
 - [中文产品说明](./docs/product-introduction.zh.md)
-- [English Product Intro](./docs/product-introduction.en.md)
 - [Quick start](#quick-start)
 - [Why this exists](#why-this-exists)
 - [Case study](#case-study)
@@ -30,6 +29,20 @@ For a market universe, it ranks candidates using the same filter.
 - Entry / invalidation / exit
 - Positioning note
 
+## Product visuals
+
+### 7-step lifecycle
+
+![7 Step Lifecycle](./assets/7-step-lifecycle.svg)
+
+### PREPARE score
+
+![PREPARE Score](./assets/prepare-score.svg)
+
+### Single ticker analysis
+
+![Single Ticker Analysis](./assets/single-ticker-analysis.svg)
+
 ## Scan mode
 
 Use it to rank U.S. penny stocks or volatile small caps by:
@@ -56,6 +69,14 @@ It is designed to turn noisy penny-stock behavior into a simple operating rule:
 
 > catalysts first, liquidity second, stage third, discipline always.
 
+## How it works
+
+1. Give it a ticker, watchlist, or a U.S. small-cap universe.
+2. It checks the catalyst, float, volume, and stage.
+3. It scores the setup with PREPARE.
+4. It returns a Buyable / Watchlist only / Avoid verdict.
+5. It tells you how to enter, where it breaks, and how to exit.
+
 ## Case study
 
 The framework is meant to work on names like these:
@@ -68,18 +89,6 @@ The framework is meant to work on names like these:
 
 These are not buy calls.
 They are examples of the kind of tape Sykes-style screening is designed to catch.
-
-## How it decides
-
-The default output is built around five things:
-
-1. Verdict
-2. Lifecycle stage
-3. PREPARE score
-4. Entry / invalidation / exit
-5. Positioning note
-
-If a ticker does not have a catalyst, does not have enough liquidity, or is already too extended without fresh promotion, the answer should stay conservative.
 
 ## License
 
